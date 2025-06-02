@@ -1,1 +1,1 @@
-"# mini-project" 
+This project implements an IoT-based system for real-time monitoring and intelligent control of water flow using an ESP32 microcontroller, a flow sensor, and a GRU-based deep learning model deployed on a Raspberry Pi. The system collects flow data, sends it to the Adafruit IO cloud platform using the MQTT protocol, and uses predictions from the GRU model to control a relay-connected sprinkler. The Raspberry Pi compares predicted vs actual flow rates and sends control signals to the ESP32 to optimize water usage.
